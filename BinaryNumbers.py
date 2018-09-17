@@ -1,5 +1,10 @@
 #!/bin/python3
 
+"""
+Link: 
+https://www.hackerrank.com/challenges/30-binary-numbers/problem
+"""
+
 import math
 import os
 import random

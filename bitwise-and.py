@@ -18,10 +18,8 @@ if __name__ == '__main__':
 
         k = int(nk[1])
 
-        s = [i for i in range(1, n+1)]
         result = 0
-        for A in s:
-            for B in s:
-                if A != B and A&B < k and A&B > result:
-                    result = A&B
-        print(result)
+        if (k-1) % 2 == 0 or ((k-1)|k)<=n:
+            print(k -1)
+        else:
+            print(k - 2)
